@@ -1,0 +1,248 @@
+/* Import Barlow font */
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Barlow', sans-serif;
+    /*background: linear-gradient(180deg, #B230C8 -46.16%, #172B60 84.74%);*/
+}
+.main-container{
+    width: 100%;
+}
+
+.initial-box {
+    width: 100%;
+    height: 898px;
+    background: linear-gradient(180deg, #B230C8 -46.16%, #172B60 84.74%);
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+}
+/*Header*/
+header {
+    width: 96%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 30px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+/*Menú*/
+nav {
+    position: relative;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Barlow;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: right;
+}
+
+.separator {
+    color: #fff;
+}
+
+.hamburger-menu {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.hamburger-menu span {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background: rgba(0, 0, 0, 0.7);
+        width: 200px;
+        padding: 10px;
+        border-radius: 8px;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    nav ul li.separator {
+        display: none;
+    }
+
+    .hamburger-menu {
+        display: flex;
+    }
+
+    nav ul.open {
+        display: flex;
+    }
+}
+
+.big-box {
+    width: 100%;
+    height: 650px;
+    background: rgba(217, 217, 217, 1);
+}
+
+section {
+    width: 100%;
+    padding: 20px;
+    margin: 0;
+}
+#que-somos {
+    background: linear-gradient(180deg, #172B60 0%, #B230C8 105.18%);
+    width: 100%;
+    height: 839.5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.que-somos-container {
+    width: 100%;
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+.que-somos-container .content {
+    max-width: 800px;
+    margin-bottom: 20px;
+}
+.que-somos-container h1 {
+    font-family: 'Barlow';
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+}
+.que-somos-container p {
+    font-family: 'Barlow';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.que-somos-container button {
+    width: 206px;
+    height: 61px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    background: none;
+    color: #fff;
+    font-family: 'Barlow';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.que-somos-container .image {
+    margin-top: 20px;
+}
+.que-somos-container .image img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+
+#metodologia {
+    background: #fff;
+}
+
+#que-hacemos {
+    background: rgba(26, 43, 82, 1);
+}
+
+#testimonios {
+    background: #fff;
+}
+
+#contacto {
+    background: transparent;
+}
+
+.que-somos-container, .metodologia-container, .que-hacemos-container, .testimonios-container, .contacto-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.que-somos-container .content, .metodologia-container, .que-hacemos-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.que-somos-container .content h1, .metodologia-container h1, .que-hacemos-container h1, .testimonios-container h1, .contacto-container h1 {
+    font-size: 36px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.que-somos-container .content p, .metodologia-container p, .que-hacemos-container p, .testimonios-container p, .contacto-container p {
+    font-size: 18px;
+    color: white;
+    max-width: 600px;
+}
+
+.que-somos-container .image img, .testimonial-img, .contact-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.metodologia-boxes, .main-box, .secondary-box {
+    display: flex;
+    gap: 15px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.box, .rect-box {
+    background: #d9d9d9;
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background: rgba(26, 43, 82, 1);
+    color: white;
+}
+

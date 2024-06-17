@@ -1,11 +1,107 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>GuateGeeks</title>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-    
+    <div class="main-container">
+        <div class="initial-box">
+            <header>
+                <div class="logo">
+                    <img src="/imagenes/logo.svg" alt="Logo GuateGeeks">
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#que-somos">¿Qué somos?</a></li>
+                        <li class="separator">|</li>
+                        <li><a href="#metodologia">Nuestra Metodología</a></li>
+                        <li class="separator">|</li>
+                        <li><a href="#que-hacemos">¿Qué hacemos?</a></li>
+                        <li class="separator">|</li>
+                        <li><a href="#testimonios">Testimonios</a></li>
+                        <li class="separator">|</li>
+                        <li><a href="#contacto">Contáctenos</a></li>
+                    </ul>
+                    <div class="hamburger-menu" id="hamburger-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </nav>
+            </header>
+            <div class="big-box"></div>
+        </div>
+        <section id="que-somos">
+            <div class="que-somos-container">
+                <div class="content">
+                    <h1>¿QUÉ SOMOS?</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                    <button>CONTACTÁNOS</button>
+                    <div class="image">
+                        <img src="/imagenes/lego-que-somos.png" alt="lego-que-somos">
+                    </div>
+             </div>
+            </div>
+        </section>
+        <section id="metodologia">
+            <div class="metodologia-container">
+                <h1>Nuestra Metodología</h1>
+                <p>Descripción de nuestra metodología...</p>
+                <div class="metodologia-boxes">
+                    <div class="box">Recuadro 1</div>
+                    <div class="box">Recuadro 2</div>
+                    <div class="box">Recuadro 3</div>
+                    <div class="box">Recuadro 4</div>
+                    <div class="box">Recuadro 5</div>
+                </div>
+            </div>
+        </section>
+        <section id="que-hacemos">
+            <div class="que-hacemos-container">
+                <h1>Qué Hacemos</h1>
+                <p>Descripción de qué hacemos...</p>
+                <div class="main-box">
+                    <div class="rect-box">Recuadro</div>
+                    <div class="rect-box">Rectángulo</div>
+                </div>
+                <div class="secondary-box">
+                    <div class="box">Recuadro Grande 1</div>
+                    <div class="box">Recuadro Grande 2</div>
+                </div>
+            </div>
+        </section>
+        <section id="testimonios">
+            <div class="testimonios-container">
+                <h1>Testimonios</h1>
+                <div class="testimonial">
+                    <img src="testimonial.jpg" alt="Foto Testimonial" class="testimonial-img">
+                    <p class="testimonial-text">"Texto del testimonio..."</p>
+                </div>
+            </div>
+        </section>
+        <section id="contacto">
+            <div class="contacto-container">
+                <h1>Contáctenos</h1>
+                <div class="contact-info">
+                    <p><i class="icon phone-icon"></i> Teléfono: 123-456-789</p>
+                    <p><i class="icon email-icon"></i> Email: contacto@empresa.com</p>
+                    <p><i class="icon linkedin-icon"></i> LinkedIn: /empresa</p>
+                    <p><i class="icon instagram-icon"></i> Instagram: @empresa</p>
+                    <p><i class="icon facebook-icon"></i> Facebook: /empresa</p>
+                </div>
+                <div class="contact-image">
+                    <img src="contact.jpg" alt="Imagen de Contacto">
+                </div>
+            </div>
+        </section>
+        <footer>
+            <p>Copyright © GuateGeeks 2024</p>
+        </footer>
+    </div>
+    <script src="/script.js"></script>
 </body>
 </html>
