@@ -196,7 +196,7 @@ a.button-link {
     height: auto;
 }
 
-#metodologia {
+#methodology {
     background: #fff;
 }
 
@@ -212,20 +212,20 @@ a.button-link {
     background: transparent;
 }
 
-/*.aboutus-container, .metodologia-container, .que-hacemos-container, .testimonios-container, .contacto-container {
+/*.aboutus-container, .methodology-container, .que-hacemos-container, .testimonios-container, .contacto-container {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
 
-.aboutus-container .content, .metodologia-container, .que-hacemos-container {
+.aboutus-container .content, .methodology-container, .que-hacemos-container {
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.aboutus-container .content h1, .metodologia-container h1, .que-hacemos-container h1, .testimonios-container h1, .contacto-container h1 {
+.aboutus-container .content h1, .methodology-container h1, .que-hacemos-container h1, .testimonios-container h1, .contacto-container h1 {
     font-family: 'Barlow';
     font-size: 40px;
     font-weight: 700;
@@ -235,7 +235,7 @@ a.button-link {
 
 }
 
-.aboutus-container .content p, .metodologia-container p, .que-hacemos-container p, .testimonios-container p, .contacto-container p {
+.aboutus-container .content p, .methodology-container p, .que-hacemos-container p, .testimonios-container p, .contacto-container p {
     font-family: 'Barlow';
     font-weight: 400;
     font-size: 20px;
@@ -250,7 +250,7 @@ a.button-link {
     border-radius: 50%;
 }*/
 
-.metodologia-boxes, .main-box, .secondary-box {
+.methodology-boxes, .main-box, .secondary-box {
     display: flex;
     gap: 15px;
     width: 100%;
