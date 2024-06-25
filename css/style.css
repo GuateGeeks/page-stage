@@ -199,7 +199,34 @@ a.button-link {
 #methodology {
     background: #fff;
 }
+.methodology-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    width: 1209px;
+    height: 184px;
+top: 1857px;
+left: 115px;
+gap: 0px;
+opacity: 0px;
 
+}
+
+.methodology-container h1{
+    font-family: 'Barlow';
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    margin: 0 0 20px 0;
+}
+.methodology-container p{
+    font-family: 'Barlow';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0 0 20px 0;
+}
 #que-hacemos {
     background: rgba(26, 43, 82, 1);
 }
@@ -212,20 +239,8 @@ a.button-link {
     background: transparent;
 }
 
-/*.aboutus-container, .methodology-container, .que-hacemos-container, .testimonios-container, .contacto-container {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
 
-.aboutus-container .content, .methodology-container, .que-hacemos-container {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.aboutus-container .content h1, .methodology-container h1, .que-hacemos-container h1, .testimonios-container h1, .contacto-container h1 {
+/*.aboutus-container .content h1, .methodology-container h1, .que-hacemos-container h1, .testimonios-container h1, .contacto-container h1 {
     font-family: 'Barlow';
     font-size: 40px;
     font-weight: 700;
