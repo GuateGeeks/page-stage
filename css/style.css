@@ -4,7 +4,6 @@
 body {
     margin: 0;
     font-family: 'Barlow', sans-serif;
-    /*background: linear-gradient(180deg, #B230C8 -46.16%, #172B60 84.74%);*/
 }
 .main-container{
     width: 100%;
@@ -18,7 +17,7 @@ body {
     margin: 0 auto;
     overflow: hidden;
 }
-/*Header*/
+
 header {
     width: 96%;
     display: flex;
@@ -32,7 +31,6 @@ header {
     height: 50px;
 }
 
-/*Menú*/
 nav {
     position: relative;
 }
@@ -154,6 +152,7 @@ section {
     font-weight: 700;
     line-height: 48px;
     margin: 0 0 20px 0;
+    text-transform: uppercase;
 }
 
 .content p {
@@ -180,6 +179,7 @@ a.button-link {
     line-height: 24px;
     cursor: pointer;
     margin-top: 20px;
+    text-transform: uppercase;
 }
 
 .image {
@@ -201,46 +201,136 @@ a.button-link {
     width: 100%;
     padding: 40px 0;
     background-color: #fff;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 .methodology-container {
     width: 1209px;
-    margin: 0 auto; /* Centrar el contenedor horizontalmente */
-    text-align: center; /* Centrar el texto */
+    margin: 0 auto;
+    text-align: center;
 }
 
 .methodology-container h1 {
     width: 1209px;
-    height: 184px;
-    margin: 0 auto 20px; /* Centrar y agregar margen inferior para separación */
-    font-size: 2.5rem; /* Ajusta el tamaño según necesites */
-    line-height: 184px; /* Centrar verticalmente el texto */
+    height: 50px;
+    font-family: 'Barlow';
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    color: #9A9C9E;
+    text-transform: uppercase;
 }
 
 .methodology-container p {
     width: 1209px;
-    margin: 0 auto 40px; /* Centrar y agregar margen inferior para separación */
-    font-size: 1rem; /* Ajusta el tamaño según necesites */
-    line-height: 1.5; /* Espaciado entre líneas */
+    height: 184px;
+    font-family: 'Barlow';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #9A9C9E;
 }
 
 .image-methodology {
     width: 1241.58px;
     height: 413.67px;
-    margin: 0 auto; /* Centrar la imagen horizontalmente */
+    margin: 0 auto; 
+    margin-bottom: 100px;
 }
 
 .image-methodology img {
     width: 100%;
     height: auto;
-    display: block; /* Asegura que la imagen no tenga margen inferior extra */
+    display: block; 
 }
-
-#que-hacemos {
+#what-we-do {
+    position: relative;
+    width: 100%;
+    height: 1398px;
+    padding-top: 60px; 
+    padding-bottom: 60px; 
     background: rgba(26, 43, 82, 1);
 }
 
+.what-we-do-container {
+    width: 1440px;
+    margin: 0 auto;
+    text-align: left; 
+}
+
+.what-we-do-content {
+    width: 1209px;
+    height: 184px;
+    margin: 0 auto 20px; 
+    margin-top: 128px;
+}
+
+.what-we-do-content h1 {
+    font-family: 'Barlow';
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    margin: 0 0 20px 0;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.what-we-do-content p {
+    font-family: 'Barlow';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    margin: 0;
+    color: #FFFFFF;
+}
+
+.main-box, .secondary-box {
+    width: 1209px;
+    margin: 0 auto; 
+    display: flex;
+    gap: 15px; 
+    margin-top: 20px; 
+    flex-wrap: wrap; 
+}
+
+.main-box .box:nth-child(1) {
+    width: 340.87px;
+    height: 300.01px;
+    background: linear-gradient(157.45deg, #254176 3.17%, #1D2A5A 38.58%, #1B2453 64.85%, #1F3671 93.18%);
+    border-radius: 20px;
+    border: 2px solid #FFFFFF26;
+    opacity: 1;
+}
+
+.main-box .box:nth-child(2) {
+    width: 841.22px;
+    height: 300.01px;
+    background: linear-gradient(157.45deg, #254176 3.17%, #1D2A5A 38.58%, #1B2453 64.85%, #1F3671 93.18%);
+    border-radius: 20px;
+    border: 2px solid #FFFFFF26;
+    opacity: 1;
+}
+
+.secondary-box .box:nth-child(1) {
+    width: 589.05px;
+    height: 560.15px;
+    background: linear-gradient(157.45deg, #254176 3.17%, #1D2A5A 38.58%, #1B2453 64.85%, #1F3671 93.18%);
+    border-radius: 20px;
+    border: 2px solid #FFFFFF26;
+    opacity: 1;
+}
+.secondary-box .box:nth-child(2) {
+    width: 589.05px;
+    height: 560.15px;
+    background: linear-gradient(157.45deg, #254176 3.17%, #1D2A5A 38.58%, #1B2453 64.85%, #1F3671 93.18%);
+    border-radius: 20px;
+    border: 2px solid #FFFFFF26;
+    opacity: 1;
+}
 #testimonios {
     background: #fff;
 }
@@ -267,27 +357,7 @@ a.button-link {
     line-height: 24px;
     position: relative;
     text-align: left;
-}
-
-.aboutus-container .image img, .testimonial-img, .contact-image img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 50%;
-}*/
-
-.methodology-boxes, .main-box, .secondary-box {
-    display: flex;
-    gap: 15px;
-    width: 100%;
-    margin-top: 20px;
-}
-
-.box, .rect-box {
-    background: #d9d9d9;
-    flex: 1;
-    padding: 20px;
-    text-align: center;
-}
+} */
 
 footer {
     width: 100%;
